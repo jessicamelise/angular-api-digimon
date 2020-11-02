@@ -1,0 +1,83 @@
+.reset-tag-h-p {
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: block;
+}
+.display-center {
+    text-align: center;
+}
+.content-nav {
+    justify-content: center;
+}
+.content-width {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.background {
+    background-color: rgb(215, 225, 247);
+}
+
+.color-title {
+    color: rgb(255, 153, 26);
+}
+
+.size-title {
+    font-size: 40px;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.padding-input {
+    padding: 10px;
+}
+
+.color-subtitle {
+    color: rgb(38, 117, 174);
+}
+
+.input-text {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px grey;
+    outline: none;
+    height: 25px;
+}
+
+.max-width {
+    max-width: 900px;
+}
+
+/* teste do ngclass */
+/* .hidden {
+    display: none;
+} */
+
+/* .border {
+    border: solid 2px saddlebrown;
+}
+.color {
+    color: seagreen;
+}
+.background-color {
+    background-color: steelblue;
+} */
+
+
+@media only screen and (min-width: 600px) {
+    .display {
+        display: flex;
+    }
+    
+    .size-title {
+        font-size: 60px;
+    }
+    .search-width {
+        width: 50%;
+    }
+}

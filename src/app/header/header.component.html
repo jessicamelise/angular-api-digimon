@@ -1,0 +1,33 @@
+<nav class="display content-nav display-center background">
+    <section class="display max-width content-width">
+        <h1 class="reset-tag-h-p color-title size-title">{{title}}</h1>
+        <div class="align-center padding-input search-width">
+            <label for="search" class="color-subtitle">Busca:</label>
+            <input id="search" type="text" class="input-text">
+        </div>
+    </section>
+</nav>
+
+<!-- ngclass TERNARIO SIMPLES
+    <div>
+    <input [(ngModel)]="testCheck" type="checkbox">
+    <span>{{testCheck}}</span>
+</div>
+<p [ngClass]="testCheck ? 'hidden' : ''" class="">olá</p> -->
+
+<!-- ngclass mais de uma opção
+    <div>
+    <input [(ngModel)]="testCheck1" type="checkbox">{{testCheck1}}
+    <input [(ngModel)]="testCheck2" type="checkbox">{{testCheck2}}
+    <input [(ngModel)]="testCheck3" type="checkbox">{{testCheck3}}
+</div>
+<h1 [ngClass]="check()">teste ng class com função</h1>
+<h1 [ngClass]="{'border': testCheck1, 'color': testCheck2, 'background-color': testCheck3}">teste ng class direto</h1> -->
+
+
+<!-- <input [(ngModel)]="test" type="text"/>
+<input value="clicar" type="button" (click)="testeFunc()" />
+<span>{{test}}</span>
+<br> -->
+<!-- <input (ngModelChange)="test = $event" type="text"/> -->
+

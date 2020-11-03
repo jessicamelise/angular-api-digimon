@@ -1,0 +1,12 @@
+<main>
+    <section>
+        <h2>Lista Digimon</h2>
+        <ul>
+            <li *ngFor="let digimon of digimons;">
+                <h4>{{digimon.name}}</h4>
+                <img src="{{digimon.img}}" alt="{{digimon.name}}">
+                <p>{{digimon.level}}</p>
+            </li>
+        </ul>
+    </section>
+</main>

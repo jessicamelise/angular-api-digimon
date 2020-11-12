@@ -1,0 +1,20 @@
+<p *ngIf="teste.length === 0; else elseBlock">qualquer informação!!</p>
+<ng-template #elseBlock>
+    <p *ngFor="let item of teste;">{{item.teste}}</p>
+</ng-template>
+<div>
+    
+    <table>
+        <tr>
+            <th>ola</th>
+            <th>para</th>
+            <th>todos</th>
+        </tr>
+        <tr>
+            <td>deu</td>
+            <td>certo</td>
+            <td>a tabela</td>
+        </tr>
+    </table>
+</div>
+<button>Teste</button>
